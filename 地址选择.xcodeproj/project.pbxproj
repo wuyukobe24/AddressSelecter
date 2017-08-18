@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08D1843B3344250D8B5C9B25 /* libPods-地址选择UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EE61B557F02B544123C52D /* libPods-地址选择UITests.a */; };
+		1E9B8135C17B2C4632F2A489 /* libPods-地址选择Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF962656D50D1F26B2AF4972 /* libPods-地址选择Tests.a */; };
+		862F7B366DD56E9ED3C686EA /* libPods-地址选择.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCBDD8EF8A803FD00EB903D /* libPods-地址选择.a */; };
 		F1EEF83A1F44294D004EAB1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF8391F44294D004EAB1A /* main.m */; };
 		F1EEF83D1F44294D004EAB1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF83C1F44294D004EAB1A /* AppDelegate.m */; };
 		F1EEF8401F44294D004EAB1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF83F1F44294D004EAB1A /* ViewController.m */; };
@@ -15,6 +18,13 @@
 		F1EEF8481F44294D004EAB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EEF8461F44294D004EAB1A /* LaunchScreen.storyboard */; };
 		F1EEF8531F44294D004EAB1A /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF8521F44294D004EAB1A /* ____Tests.m */; };
 		F1EEF85E1F44294D004EAB1A /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF85D1F44294D004EAB1A /* ____UITests.m */; };
+		F1EEF86D1F4432FB004EAB1A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF86C1F4432FB004EAB1A /* UIView+Extension.m */; };
+		F1EEF8731F44339D004EAB1A /* CitiesDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF8721F44339D004EAB1A /* CitiesDataTool.m */; };
+		F1EEF8761F443417004EAB1A /* AddressItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF8751F443417004EAB1A /* AddressItem.m */; };
+		F1EEF8791F44344E004EAB1A /* ChooseLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF8781F44344E004EAB1A /* ChooseLocationView.m */; };
+		F1EEF87C1F4434C6004EAB1A /* AddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF87B1F4434C6004EAB1A /* AddressView.m */; };
+		F1EEF87F1F443503004EAB1A /* AddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EEF87E1F443503004EAB1A /* AddressTableViewCell.m */; };
+		F1EEF8811F443A9D004EAB1A /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = F1EEF8801F443A9D004EAB1A /* Cities.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B74EA7E8284341F35BC8012 /* Pods-地址选择Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-地址选择Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-地址选择Tests/Pods-地址选择Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1267803916338F8F47017791 /* Pods-地址选择.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-地址选择.release.xcconfig"; path = "Pods/Target Support Files/Pods-地址选择/Pods-地址选择.release.xcconfig"; sourceTree = "<group>"; };
+		1CCBDD8EF8A803FD00EB903D /* libPods-地址选择.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-地址选择.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B623CAB7E41C42E13B33295 /* Pods-地址选择.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-地址选择.debug.xcconfig"; path = "Pods/Target Support Files/Pods-地址选择/Pods-地址选择.debug.xcconfig"; sourceTree = "<group>"; };
+		8FAE8B5B841AAB72FACFDD86 /* Pods-地址选择UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-地址选择UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-地址选择UITests/Pods-地址选择UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A93D08AE51BD4FD530F530E9 /* Pods-地址选择UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-地址选择UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-地址选择UITests/Pods-地址选择UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B43DF366EF6BD4F19BDB24B6 /* Pods-地址选择Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-地址选择Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-地址选择Tests/Pods-地址选择Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C4EE61B557F02B544123C52D /* libPods-地址选择UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-地址选择UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF962656D50D1F26B2AF4972 /* libPods-地址选择Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-地址选择Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EEF8351F44294D004EAB1A /* 地址选择.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "地址选择.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EEF8391F44294D004EAB1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1EEF83B1F44294D004EAB1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1EEF83C1F44294D004EAB1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1EEF83E1F44294D004EAB1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1EEF83F1F44294D004EAB1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1EEF83E1F44294D004EAB1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		F1EEF83F1F44294D004EAB1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		F1EEF8421F44294D004EAB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1EEF8441F44294D004EAB1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1EEF8471F44294D004EAB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +70,19 @@
 		F1EEF8591F44294D004EAB1A /* 地址选择UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "地址选择UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EEF85D1F44294D004EAB1A /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		F1EEF85F1F44294D004EAB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EEF86B1F4432FB004EAB1A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F1EEF86C1F4432FB004EAB1A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F1EEF8711F44339D004EAB1A /* CitiesDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesDataTool.h; sourceTree = "<group>"; };
+		F1EEF8721F44339D004EAB1A /* CitiesDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesDataTool.m; sourceTree = "<group>"; };
+		F1EEF8741F443417004EAB1A /* AddressItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressItem.h; sourceTree = "<group>"; };
+		F1EEF8751F443417004EAB1A /* AddressItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressItem.m; sourceTree = "<group>"; };
+		F1EEF8771F44344E004EAB1A /* ChooseLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLocationView.h; sourceTree = "<group>"; };
+		F1EEF8781F44344E004EAB1A /* ChooseLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLocationView.m; sourceTree = "<group>"; };
+		F1EEF87A1F4434C6004EAB1A /* AddressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressView.h; sourceTree = "<group>"; };
+		F1EEF87B1F4434C6004EAB1A /* AddressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressView.m; sourceTree = "<group>"; };
+		F1EEF87D1F443503004EAB1A /* AddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressTableViewCell.h; sourceTree = "<group>"; };
+		F1EEF87E1F443503004EAB1A /* AddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressTableViewCell.m; sourceTree = "<group>"; };
+		F1EEF8801F443A9D004EAB1A /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862F7B366DD56E9ED3C686EA /* libPods-地址选择.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E9B8135C17B2C4632F2A489 /* libPods-地址选择Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +106,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D1843B3344250D8B5C9B25 /* libPods-地址选择UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		733F34BCA0F316845AA4AB06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CCBDD8EF8A803FD00EB903D /* libPods-地址选择.a */,
+				EF962656D50D1F26B2AF4972 /* libPods-地址选择Tests.a */,
+				C4EE61B557F02B544123C52D /* libPods-地址选择UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A894C8811369EAB08F2F593 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B623CAB7E41C42E13B33295 /* Pods-地址选择.debug.xcconfig */,
+				1267803916338F8F47017791 /* Pods-地址选择.release.xcconfig */,
+				0B74EA7E8284341F35BC8012 /* Pods-地址选择Tests.debug.xcconfig */,
+				B43DF366EF6BD4F19BDB24B6 /* Pods-地址选择Tests.release.xcconfig */,
+				A93D08AE51BD4FD530F530E9 /* Pods-地址选择UITests.debug.xcconfig */,
+				8FAE8B5B841AAB72FACFDD86 /* Pods-地址选择UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F1EEF82C1F44294D004EAB1A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				F1EEF8511F44294D004EAB1A /* 地址选择Tests */,
 				F1EEF85C1F44294D004EAB1A /* 地址选择UITests */,
 				F1EEF8361F44294D004EAB1A /* Products */,
+				8A894C8811369EAB08F2F593 /* Pods */,
+				733F34BCA0F316845AA4AB06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +163,12 @@
 			children = (
 				F1EEF83B1F44294D004EAB1A /* AppDelegate.h */,
 				F1EEF83C1F44294D004EAB1A /* AppDelegate.m */,
-				F1EEF83E1F44294D004EAB1A /* ViewController.h */,
-				F1EEF83F1F44294D004EAB1A /* ViewController.m */,
+				F1EEF86B1F4432FB004EAB1A /* UIView+Extension.h */,
+				F1EEF86C1F4432FB004EAB1A /* UIView+Extension.m */,
+				F1EEF8801F443A9D004EAB1A /* Cities.json */,
+				F1EEF8701F44336F004EAB1A /* Controller */,
+				F1EEF86F1F443357004EAB1A /* View */,
+				F1EEF86E1F443342004EAB1A /* Model */,
 				F1EEF8411F44294D004EAB1A /* Main.storyboard */,
 				F1EEF8441F44294D004EAB1A /* Assets.xcassets */,
 				F1EEF8461F44294D004EAB1A /* LaunchScreen.storyboard */,
@@ -140,6 +204,39 @@
 			path = "地址选择UITests";
 			sourceTree = "<group>";
 		};
+		F1EEF86E1F443342004EAB1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1EEF8711F44339D004EAB1A /* CitiesDataTool.h */,
+				F1EEF8721F44339D004EAB1A /* CitiesDataTool.m */,
+				F1EEF8741F443417004EAB1A /* AddressItem.h */,
+				F1EEF8751F443417004EAB1A /* AddressItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1EEF86F1F443357004EAB1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1EEF8771F44344E004EAB1A /* ChooseLocationView.h */,
+				F1EEF8781F44344E004EAB1A /* ChooseLocationView.m */,
+				F1EEF87A1F4434C6004EAB1A /* AddressView.h */,
+				F1EEF87B1F4434C6004EAB1A /* AddressView.m */,
+				F1EEF87D1F443503004EAB1A /* AddressTableViewCell.h */,
+				F1EEF87E1F443503004EAB1A /* AddressTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1EEF8701F44336F004EAB1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1EEF83E1F44294D004EAB1A /* ViewController.h */,
+				F1EEF83F1F44294D004EAB1A /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1EEF8621F44294D004EAB1A /* Build configuration list for PBXNativeTarget "地址选择" */;
 			buildPhases = (
+				721DACEA8ACF07C056C84A36 /* [CP] Check Pods Manifest.lock */,
 				F1EEF8311F44294D004EAB1A /* Sources */,
 				F1EEF8321F44294D004EAB1A /* Frameworks */,
 				F1EEF8331F44294D004EAB1A /* Resources */,
+				288B2542398B02028F1E8669 /* [CP] Embed Pods Frameworks */,
+				F24CDFA61BCD291206F9A7B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1EEF8651F44294D004EAB1A /* Build configuration list for PBXNativeTarget "地址选择Tests" */;
 			buildPhases = (
+				CA563AEFBE898C418EC7CAEF /* [CP] Check Pods Manifest.lock */,
 				F1EEF84A1F44294D004EAB1A /* Sources */,
 				F1EEF84B1F44294D004EAB1A /* Frameworks */,
 				F1EEF84C1F44294D004EAB1A /* Resources */,
+				7C61A14ADC388616E914F00F /* [CP] Embed Pods Frameworks */,
+				29CB5B5B1761C5091431D698 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1EEF8681F44294D004EAB1A /* Build configuration list for PBXNativeTarget "地址选择UITests" */;
 			buildPhases = (
+				6EF71273172550685EC4B790 /* [CP] Check Pods Manifest.lock */,
 				F1EEF8551F44294D004EAB1A /* Sources */,
 				F1EEF8561F44294D004EAB1A /* Frameworks */,
 				F1EEF8571F44294D004EAB1A /* Resources */,
+				2ECAAC366E9FDC32EF00D4D9 /* [CP] Embed Pods Frameworks */,
+				B4F2C5F2B28E38FD4A30024C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,8 +313,7 @@
 				TargetAttributes = {
 					F1EEF8341F44294D004EAB1A = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = UV433VL8PE;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					F1EEF84D1F44294D004EAB1A = {
 						CreatedOnToolsVersion = 8.1;
@@ -249,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EEF8811F443A9D004EAB1A /* Cities.json in Resources */,
 				F1EEF8481F44294D004EAB1A /* LaunchScreen.storyboard in Resources */,
 				F1EEF8451F44294D004EAB1A /* Assets.xcassets in Resources */,
 				F1EEF8431F44294D004EAB1A /* Main.storyboard in Resources */,
@@ -271,13 +377,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		288B2542398B02028F1E8669 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-地址选择/Pods-地址选择-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29CB5B5B1761C5091431D698 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-地址选择Tests/Pods-地址选择Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ECAAC366E9FDC32EF00D4D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-地址选择UITests/Pods-地址选择UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF71273172550685EC4B790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		721DACEA8ACF07C056C84A36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C61A14ADC388616E914F00F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-地址选择Tests/Pods-地址选择Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4F2C5F2B28E38FD4A30024C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-地址选择UITests/Pods-地址选择UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA563AEFBE898C418EC7CAEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F24CDFA61BCD291206F9A7B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-地址选择/Pods-地址选择-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1EEF8311F44294D004EAB1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F1EEF8401F44294D004EAB1A /* ViewController.m in Sources */,
+				F1EEF87C1F4434C6004EAB1A /* AddressView.m in Sources */,
+				F1EEF8731F44339D004EAB1A /* CitiesDataTool.m in Sources */,
+				F1EEF87F1F443503004EAB1A /* AddressTableViewCell.m in Sources */,
 				F1EEF83D1F44294D004EAB1A /* AppDelegate.m in Sources */,
+				F1EEF8761F443417004EAB1A /* AddressItem.m in Sources */,
+				F1EEF8791F44344E004EAB1A /* ChooseLocationView.m in Sources */,
+				F1EEF86D1F4432FB004EAB1A /* UIView+Extension.m in Sources */,
 				F1EEF83A1F44294D004EAB1A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,10 +675,13 @@
 		};
 		F1EEF8631F44294D004EAB1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B623CAB7E41C42E13B33295 /* Pods-地址选择.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UV433VL8PE;
+				CODE_SIGN_IDENTITY = "iPhone Developer: apple@jingbei.com.cn (T4BKKX5ZU7)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "地址选择/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jbtouzi.jingbei.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +690,13 @@
 		};
 		F1EEF8641F44294D004EAB1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1267803916338F8F47017791 /* Pods-地址选择.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UV433VL8PE;
+				CODE_SIGN_IDENTITY = "iPhone Developer: apple@jingbei.com.cn (T4BKKX5ZU7)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "地址选择/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jbtouzi.jingbei.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,6 +705,7 @@
 		};
 		F1EEF8661F44294D004EAB1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B74EA7E8284341F35BC8012 /* Pods-地址选择Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = UV433VL8PE;
@@ -462,6 +719,7 @@
 		};
 		F1EEF8671F44294D004EAB1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43DF366EF6BD4F19BDB24B6 /* Pods-地址选择Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = UV433VL8PE;
@@ -475,6 +733,7 @@
 		};
 		F1EEF8691F44294D004EAB1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93D08AE51BD4FD530F530E9 /* Pods-地址选择UITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = UV433VL8PE;
 				INFOPLIST_FILE = "地址选择UITests/Info.plist";
@@ -487,6 +746,7 @@
 		};
 		F1EEF86A1F44294D004EAB1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FAE8B5B841AAB72FACFDD86 /* Pods-地址选择UITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = UV433VL8PE;
 				INFOPLIST_FILE = "地址选择UITests/Info.plist";
@@ -516,6 +776,7 @@
 				F1EEF8641F44294D004EAB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1EEF8651F44294D004EAB1A /* Build configuration list for PBXNativeTarget "地址选择Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +785,7 @@
 				F1EEF8671F44294D004EAB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1EEF8681F44294D004EAB1A /* Build configuration list for PBXNativeTarget "地址选择UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +794,7 @@
 				F1EEF86A1F44294D004EAB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
